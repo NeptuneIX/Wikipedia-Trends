@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\main-TTTVA3SP.js",
+      "PackagePath": "staticwebassets\\main-TTTVA3SP.js"
+    },
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\polyfills-FFHMD2TL.js",
+      "PackagePath": "staticwebassets\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Id": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\styles-BVJQD57C.css",
+      "PackagePath": "staticwebassets\\styles-BVJQD57C.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WikipediaArticlePropagationES.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WikipediaArticlePropagationES.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WikipediaArticlePropagationES.props",
+      "PackagePath": "build\\WikipediaArticlePropagationES.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WikipediaArticlePropagationES.props",
+      "PackagePath": "buildMultiTargeting\\WikipediaArticlePropagationES.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WikipediaArticlePropagationES.props",
+      "PackagePath": "buildTransitive\\WikipediaArticlePropagationES.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "GetAllArticleData",
+    "RelativePath": "api/WikiSeeder/all-article-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "GetArticleData",
+    "RelativePath": "api/WikiSeeder/article-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "article_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "article_title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "GetArticles",
+    "RelativePath": "api/WikiSeeder/articles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categories",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "GetMonthlyEdits",
+    "RelativePath": "api/WikiSeeder/edits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialMonth",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetMonths",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "FetchArticleData",
+    "RelativePath": "api/WikiSeeder/fetch-article-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "FetchEdits",
+    "RelativePath": "api/WikiSeeder/fetch-edits",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialMonth",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetMonths",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "FetchViews",
+    "RelativePath": "api/WikiSeeder/fetch-views",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialMonth",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetMonths",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "PopulateData",
+    "RelativePath": "api/WikiSeeder/populate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subaction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikiSeederController",
+    "Method": "GetMonthlyViews",
+    "RelativePath": "api/WikiSeeder/views",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "initialMonth",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetMonths",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offsetDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WikipediaArticlePropagationES.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WikipediaArticlePropagationES.WeatherForecast, WikipediaArticlePropagationES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "oTobYdaLFuSGhg09232X9/Z5AQ48q3lXLS+PCVBnI9M=",
+  "Source": "WikipediaArticlePropagationES",
+  "BasePath": "_content/WikipediaArticlePropagationES",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WikipediaArticlePropagationES\\wwwroot",
+      "Source": "WikipediaArticlePropagationES",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\3rdpartylicenses.txt",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbjzy52fwc",
+      "Integrity": "l8JJiS9f/A8dD0Lsw26zXKMLkEmQnreZyaCOSUDscAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\favicon.ico",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vagikyz9qx",
+      "Integrity": "+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\index.html",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "988mvg3lkj",
+      "Integrity": "KQKNqMhvYlRJRjETrHn3x+0RYxLjcgj7c4B74SEvYWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\main-TTTVA3SP.js",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "main-TTTVA3SP#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zusb6d7hg0",
+      "Integrity": "Jc838VwxeBKh6EeTKiuKTu1BZ99XM3akJCnnGEzQDJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main-TTTVA3SP.js"
+    },
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\polyfills-FFHMD2TL.js",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "39tegmrjtp",
+      "Integrity": "adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Identity": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\styles-BVJQD57C.css",
+      "SourceId": "WikipediaArticlePropagationES",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\",
+      "BasePath": "_content/WikipediaArticlePropagationES",
+      "RelativePath": "styles-BVJQD57C#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3rl1ixtq0a",
+      "Integrity": "oRVzndPT6gzf7KPyAh2rBVLiIx8RGQy/6eavj/FMf6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles-BVJQD57C.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "3rdpartylicenses.rbjzy52fwc.txt",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8JJiS9f/A8dD0Lsw26zXKMLkEmQnreZyaCOSUDscAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbjzy52fwc"
+        },
+        {
+          "Name": "label",
+          "Value": "3rdpartylicenses.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8JJiS9f/A8dD0Lsw26zXKMLkEmQnreZyaCOSUDscAc="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.txt",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8JJiS9f/A8dD0Lsw26zXKMLkEmQnreZyaCOSUDscAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8JJiS9f/A8dD0Lsw26zXKMLkEmQnreZyaCOSUDscAc="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 13:42:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.vagikyz9qx.ico",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 13:42:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vagikyz9qx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "index.988mvg3lkj.html",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQKNqMhvYlRJRjETrHn3x+0RYxLjcgj7c4B74SEvYWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "988mvg3lkj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQKNqMhvYlRJRjETrHn3x+0RYxLjcgj7c4B74SEvYWA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQKNqMhvYlRJRjETrHn3x+0RYxLjcgj7c4B74SEvYWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQKNqMhvYlRJRjETrHn3x+0RYxLjcgj7c4B74SEvYWA="
+        }
+      ]
+    },
+    {
+      "Route": "main-TTTVA3SP.js",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\main-TTTVA3SP.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "477583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jc838VwxeBKh6EeTKiuKTu1BZ99XM3akJCnnGEzQDJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jc838VwxeBKh6EeTKiuKTu1BZ99XM3akJCnnGEzQDJM="
+        }
+      ]
+    },
+    {
+      "Route": "main-TTTVA3SP.zusb6d7hg0.js",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\main-TTTVA3SP.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "477583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jc838VwxeBKh6EeTKiuKTu1BZ99XM3akJCnnGEzQDJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zusb6d7hg0"
+        },
+        {
+          "Name": "label",
+          "Value": "main-TTTVA3SP.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jc838VwxeBKh6EeTKiuKTu1BZ99XM3akJCnnGEzQDJM="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39tegmrjtp"
+        },
+        {
+          "Name": "label",
+          "Value": "polyfills-FFHMD2TL.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "styles-BVJQD57C.3rl1ixtq0a.css",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\styles-BVJQD57C.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRVzndPT6gzf7KPyAh2rBVLiIx8RGQy/6eavj/FMf6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3rl1ixtq0a"
+        },
+        {
+          "Name": "label",
+          "Value": "styles-BVJQD57C.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRVzndPT6gzf7KPyAh2rBVLiIx8RGQy/6eavj/FMf6o="
+        }
+      ]
+    },
+    {
+      "Route": "styles-BVJQD57C.css",
+      "AssetFile": "C:\\Users\\Macedonia\\Desktop\\elastic\\NBP_App\\WikipediaArticlePropagationES\\WikipediaArticlePropagationES\\wwwroot\\styles-BVJQD57C.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRVzndPT6gzf7KPyAh2rBVLiIx8RGQy/6eavj/FMf6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 21:56:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRVzndPT6gzf7KPyAh2rBVLiIx8RGQy/6eavj/FMf6o="
+        }
+      ]
+    }
+  ]
+}

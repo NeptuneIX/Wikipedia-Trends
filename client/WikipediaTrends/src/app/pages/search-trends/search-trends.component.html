@@ -1,0 +1,138 @@
+<div class="container mt-5">
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-dark text-white">
+      <h4>Search Trends</h4>
+    </div>
+    <div class="card-body">
+      <div class="row g-3">
+        <!-- Title -->
+        <div class="col-md-6">
+          <label class="form-label">Title</label>
+          <input
+            [(ngModel)]="title"
+            name="title"
+            class="form-control"
+            placeholder="Article title"
+          />
+        </div>
+
+        <!-- Initial Year -->
+        <div class="col-md-3">
+          <label class="form-label">Initial Year</label>
+          <input
+            [(ngModel)]="initialYear"
+            name="initialYear"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Initial Month -->
+        <div class="col-md-3">
+          <label class="form-label">Initial Month</label>
+          <input
+            [(ngModel)]="initialMonth"
+            name="initialMonth"
+            type="number"
+            min="1"
+            max="12"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Offset Months -->
+        <div class="col-md-3">
+          <label class="form-label">Offset Months</label>
+          <input
+            [(ngModel)]="offsetMonths"
+            name="offsetMonths"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <div class="col-md-3">
+          <label class="form-label">Offset Days</label>
+          <input
+            [(ngModel)]="offsetDays"
+            name="offsetDays"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Metric -->
+        <div class="col-md-6">
+          <label class="form-label">Metric</label>
+          <select [(ngModel)]="metric" name="metric" class="form-select">
+            <option value="popularity">Popularity per Month</option>
+            <option value="edits">Edit Count per Month</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Buttons Row -->
+      <!-- <div class="d-flex justify-content-between align-items-center mt-3">
+        <div>
+          <button class="btn btn-outline-primary" (click)="onFetchData()">
+            Fetch Data
+          </button>
+          <span *ngIf="fetchMessage" class="text-info ms-2">
+            {{ fetchMessage }}
+          </span>
+          <span
+            *ngIf="isLoading"
+            class="spinner-border text-primary"
+            role="status"
+            aria-hidden="true"
+          >
+          </span>
+        </div>
+        <button class="btn btn-primary" (click)="onSearch()">Search</button>
+      </div> -->
+
+      <div class="d-flex align-items-center mt-3">
+  <div>
+    <button class="btn btn-outline-primary" (click)="onFetchData()">Fetch Data</button>
+    <span *ngIf="fetchMessage" class="text-info ms-2">{{ fetchMessage }}</span>
+  </div>
+
+  <div class="flex-grow-1 d-flex ms-2 justify-content-left">
+    <span
+      *ngIf="isLoading"
+      class="spinner-border text-primary"
+      role="status"
+      aria-hidden="true"
+    ></span>
+  </div>
+
+  <button class="btn btn-primary" (click)="onSearch()">Search</button>
+</div>
+
+    </div>
+  </div>
+
+  <!-- Messages -->
+  <p *ngIf="showNoResults" class="text-center text-warning">
+    No results found for your query.
+  </p>
+  <p *ngIf="showServerError" class="text-center text-danger">
+    Server error(is the article indexed?). Please try again later.
+  </p>
+
+  <!-- Chart -->
+  <!-- <div *ngIf="showChart" class="mb-4"> -->
+  <div class="mb-4">
+    <canvas #chartCanvas></canvas>
+  </div>
+
+  <!-- Statistics -->
+  <div *ngIf="showChart" class="row">
+    <div class="col-md-6 text-center">
+      <h5>Volatility: <span [innerHTML]="volatilityLabel"></span></h5>
+    </div>
+    <div class="col-md-6 text-center">
+      <h5>Popularity: <span [innerHTML]="popularityLabel"></span></h5>
+    </div>
+  </div>
+</div>

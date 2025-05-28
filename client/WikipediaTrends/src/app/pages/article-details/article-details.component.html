@@ -1,0 +1,57 @@
+<div class="container mt-5">
+  <ng-container *ngIf="isLoading">
+    <div
+      class="d-flex justify-content-center align-items-center loading-container"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        aria-hidden="true"
+      ></div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="error && !isLoading">
+    <div class="alert alert-danger">{{ error }}</div>
+    <button class="btn btn-secondary" (click)="location.back()">Back</button>
+  </ng-container>
+
+  <ng-container *ngIf="!isLoading && !error">
+    <div class="card shadow-sm">
+      <div class="card-header bg-dark text-white">
+        <h2>{{ article.title }}</h2>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">{{ article.description }}</p>
+
+        <h5 class="mt-4">Categories</h5>
+        <p>{{ article.categories }}</p>
+
+        <h5 class="mt-4">Dates Searched - Views</h5>
+        <ul class="list-group">
+          <li
+            *ngFor="let viewDate of article.datesSearchedViews.split(',')"
+            class="list-group-item"
+          >
+            {{ viewDate.trim() }}
+          </li>
+        </ul>
+
+        <h5 class="mt-4">Dates Searched - Edits</h5>
+        <ul class="list-group">
+          <li
+            *ngFor="let editDate of article.datesSearchedEdits.split(',')"
+            class="list-group-item"
+          >
+            {{ editDate.trim() }}
+          </li>
+        </ul>
+
+        <button class="btn btn-secondary mt-4" (click)="location.back()">
+          Back
+        </button>
+      </div>
+    </div>
+  </ng-container>
+</div>

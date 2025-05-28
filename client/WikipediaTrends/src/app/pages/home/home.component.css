@@ -1,0 +1,23 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  
+  .card-header {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  /* Make cursor a pointer on clickable page links */
+.page-item:not(.disabled) .page-link {
+  cursor: pointer;
+}
+
+.loading-container {
+  height: 60vh; /* Adjust as needed */
+}

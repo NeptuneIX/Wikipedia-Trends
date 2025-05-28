@@ -1,0 +1,23 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  
+  .card-header {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .list-group-item {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  
+  .loading-container {
+  height: 60vh; /* Adjust as needed */
+}

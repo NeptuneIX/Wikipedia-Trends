@@ -1,0 +1,94 @@
+<div class="container mt-5">
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-dark text-white">
+      <h4>Search Trends Comparison</h4>
+    </div>
+    <div class="card-body">
+      <div class="row g-3">
+        <!-- Article Titles -->
+        <div class="col-md-6">
+          <label class="form-label">Article Titles (max 5)</label>
+          <ng-container *ngFor="let title of titles; let i = index; trackBy: trackByIndex">
+            <input
+              [(ngModel)]="titles[i]"
+              [name]="'title' + i"
+              class="form-control mb-2"
+              placeholder="Title {{ i + 1 }}"
+            />
+          </ng-container>
+        </div>
+
+        <!-- Initial Year -->
+        <div class="col-md-3">
+          <label class="form-label">Initial Year</label>
+          <input
+            [(ngModel)]="initialYear"
+            name="initialYear"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Initial Month -->
+        <div class="col-md-3">
+          <label class="form-label">Initial Month</label>
+          <input
+            [(ngModel)]="initialMonth"
+            name="initialMonth"
+            type="number"
+            min="1"
+            max="12"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Offset Months -->
+        <div class="col-md-3">
+          <label class="form-label">Offset Months</label>
+          <input
+            [(ngModel)]="offsetMonths"
+            name="offsetMonths"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <div class="col-md-3">
+          <label class="form-label">Offset Days</label>
+          <input
+            [(ngModel)]="offsetDays"
+            name="offsetMDays"
+            type="number"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Metric -->
+        <div class="col-md-6">
+          <label class="form-label">Metric</label>
+          <select [(ngModel)]="metric" name="metric" class="form-select">
+            <option value="popularity">Popularity per Month</option>
+            <option value="edits">Edit Count per Month</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Buttons Row -->
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <div>
+          <button class="btn btn-outline-primary" (click)="onCompare()">
+            Compare
+          </button>
+        </div>
+        <span *ngIf="showServerError" class="text-danger">
+          Server error. Please try again later.
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart -->
+  <div class="mb-4">
+    <canvas #chartCanvas></canvas>
+  </div>
+</div>

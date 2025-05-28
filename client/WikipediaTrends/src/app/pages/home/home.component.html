@@ -1,0 +1,80 @@
+<div class="container mt-5">
+  <!-- Add New Article -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="New Article Title"
+          [(ngModel)]="newTitle"
+        />
+        <button class="btn btn-primary" (click)="onAdd()">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Article List -->
+  <div class="row justify-content-center">
+    <ng-container *ngIf="isLoading">
+      <div
+        class="d-flex justify-content-center align-items-center loading-container"
+      >
+        <div
+          class="spinner-border text-primary"
+          role="status"
+          aria-hidden="true"
+        ></div>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="error && !isLoading">
+      <div class="alert alert-danger">{{ error }}</div>
+    </ng-container>
+
+    <div class="col-md-8" *ngIf="!isLoading && !error">
+      @for (article of paginatedArticles; track article.id) {
+      <div
+        class="card mb-3 shadow-sm"
+        [ngStyle]="{
+          backgroundColor: article.id % 2 === 0 ? '#f8f9fa' : '#e9ecef'
+        }"
+      >
+        <div class="card-body">
+          <h5 class="card-title">{{ article.title }}</h5>
+          <p class="card-text text-muted">
+            {{
+              article.description.length > 150
+                ? (article.description | slice : 0 : 150) + "..."
+                : article.description
+            }}
+          </p>
+          <button class="btn btn-outline-dark" (click)="goToArticle(article)">
+            View Details
+          </button>
+        </div>
+      </div>
+      } @if (totalPages > 1) {
+      <nav class="mt-4">
+        <ul class="pagination justify-content-center">
+          <li class="page-item" [class.disabled]="page() === 1">
+            <a class="page-link" (click)="changePage(page() - 1)"> Previous </a>
+          </li>
+
+          @for (idx of pages(); track idx) {
+          <li class="page-item" [class.active]="page() === idx">
+            <a class="page-link" (click)="changePage(idx)">
+              {{ idx }}
+            </a>
+          </li>
+          }
+
+          <li class="page-item" [class.disabled]="page() === totalPages">
+            <a class="page-link" (click)="changePage(page() + 1)"> Next </a>
+          </li>
+        </ul>
+      </nav>
+      }
+    </div>
+  </div>
+</div>

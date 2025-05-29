@@ -19,19 +19,15 @@ namespace WikipediaArticlePropagationES
 
 
 
-
-
-            // Add services to the container.
-
             // Elasticsearch settings
             var settings = new ConnectionSettings(new Uri("http://localhost:9200"))
-                .BasicAuthentication("elastic", "your_password"); // Your ES credentials
+                .BasicAuthentication("elastic", "your_password"); // Only needed if you have credentials
             var elasticClient = new ElasticClient(settings);
 
             builder.Services.AddSingleton<IElasticClient>(elasticClient);
+            // Adding services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddCors(options =>

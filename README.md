@@ -117,12 +117,12 @@ You **must create the two indices in Elasticsearch before running the app**. Bel
 
 - Node.js & Angular CLI
 
-- Elasticsearch (running locally)
+- ElasticSearch (running locally)
 
 1. Clone the repository:
     ```git clone https://github.com/NeptuneIX/Wikipedia-Trends.git```
-1. **Set up Elasticsearch** and create the two indices above.  
-2. Add your Wikipedia API key to the backend `appsettings.json` file:
+1. **Set up ElasticSearch** and create the two indices above.  
+2. Modify credentials for ElasticSearch in Program.cs if needed, then add your Wikipedia API key to the backend `appsettings.json` file:
 
     ```json
     {

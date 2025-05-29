@@ -1,0 +1,39 @@
+# Ignore build results
+bin/
+obj/
+out/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# VS Code & VS settings
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# ASP.NET logs
+*.log
+
+# Others
+_ReSharper*/
+*.ncrunch*
+*.localhistory/
+*.DS_Store
+
+# Node dependencies (if any in backend)
+node_modules/
+npm-debug.log
+
+# Optional: ignore Angular dist in client folder (if you also build from there)
+client/WikipediaTrends/dist/
+client/WikipediaTrends/.vscode

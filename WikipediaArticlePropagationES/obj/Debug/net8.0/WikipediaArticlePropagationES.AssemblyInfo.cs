@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WikipediaArticlePropagationES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+997718f8ef32dfe4830f9c5b1f4e61f8e75a924e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba1a990157d0c6436222740a1b4e3166fb5637a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WikipediaArticlePropagationES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WikipediaArticlePropagationES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
